@@ -1,0 +1,76 @@
+<html>
+<head>
+<title> Formulario </title>
+</head>
+<body bgcolor="DB7093">
+<center> <h1><font face="FangSong" color="#FFFFFF"> SOBRE NUESTRA PAGINA </font></h1> </center>
+<form action="mailto:Alejandradelacruz.12@outlook.com" method="post" enctype="text/plain">
+<table bgcolor="#D8BFD8" align="CENTER" border="3" width="85%">
+<tr> <td> Nombre: <input type=text name=Nombre size=40> </td>
+<td> Clave: <input type=password name=Clave maxlength=5 size=10> </td> 
+<tr> <td> Turno: <input type=hidden name=Turno size=10> 
+<select name=Turno>
+<option> MATUTINO
+<option> VESPERTINO
+</select> </td>
+<td> EDAD:
+<input type=radio name=edad value="16">16
+<input type=radio name=edad value="17">17
+<input type=radio name=edad value="más de 18">18
+</td>
+<tr> <td> 1.- ¿Te gusta nuestra pagina? </td> <td> <input type=radio name=pregunta1 value="Si">Si <input type=radio name=pregunta1 value="No">No </td> </tr>
+<tr> <td> 2.- ¿Qué cambiarias para mejorar la pagina? </td> <td> <input type=text name=pregunta2 size=20> </td> </tr>
+<tr> <td> 3.- ¿Cuál de estos colores te gustaria que fuera el principal? </td>
+<td> <input type=radio name=pregunta3 value="Acción">Azul
+<input type=radio name=pregunta3 value="Terror">Morado
+<input type=radio name=pregunta3 value="Romance">Rosa
+<input type=radio name=pregunta3 value="Ciencia Ficción">Verde
+</td> </tr>
+<tr> <td> 4.- ¿Crees que el uso de la nueva página web de la asignatura puede ayudar a
+comprender mejor la explicación teórica del/a profesor/a? ¿Por qué? </td> <td> <input type=text name=pregunta4 size=20> </td> </tr>
+<tr> <td> 5.-  Los temas que tratan en nuestra Pagina WEB son interesantes </td>
+ <td> <input type=radio name=pregunta8 value="Música">Si
+<input type=radio name=pregunta8 value="Videojuegos">No
+<input type=radio name=pregunta8 value="Novela">Un poco</td> </tr>
+<tr> <td> 6.- ¿Consideras que el diseño de la interfaz: estructura, organización, etc., de la página
+web son adecuados? </td>
+<td> <input type=radio name=pregunta6 value="SI">Si
+<input type=radio name=pregunta6 value="NO">No
+</td> </tr>
+<tr> <td> 7.- ¿Que autores de libros conoces? </td> <td> <input type=text name=pregunta7 size=20> </td> <tr>
+<tr> <td> 8.-¿Crees que los elementos multimedia utilizados en esta página web facilitan el
+proceso de enseñanza-aprendizaje de los contenidos?. </td>
+<td> <input type=radio name=pregunta8 value="Música">Muy de acuerdo
+<input type=radio name=pregunta8 value="Videojuegos">De acuerdo
+<input type=radio name=pregunta8 value="Novela">Indiferente
+<input type=radio name=pregunta8 value="Revistas">En desacuerdo
+<input type=radio name=pregunta8 value="Música">Muy en desacuerdo
+</td> </tr>
+<tr> <td> 9.-El tipo de letra utilizado, así como el tamaño de la misma, ¿crees que son los
+adecuados?  </td>
+<td> <input type=radio name=pregunta8 value="Música">Muy de acuerdo
+<input type=radio name=pregunta8 value="Videojuegos">De acuerdo
+<input type=radio name=pregunta8 value="Novela">Indiferente
+<input type=radio name=pregunta8 value="Revistas">En desacuerdo
+<input type=radio name=pregunta8 value="Música">Muy en desacuerdo
+</td> </tr> 
+<tr> <td> 10.-¿En qué medida consideras bueno para el aprendizaje de la asignatura el uso de la
+nueva página web?  </td>
+<td> <input type=hidden name=pregunta10 size=10>
+<select name=donde>
+<option> Muy bueno
+<option> Bueno
+<option> Regular
+<option> Malo
+<option> Muy malo
+</select> </td> </tr> 
+</table>
+<p>
+<center><font color="#EBDEF0" face="Bell MT" size="5"><b>Comentarios:</b> </center> 
+<center> <textarea name=comentario rows=10 cols=40 wrap=virtual> </textarea> </center>
+<center> <input  type=submit value="Enviar"> 
+<input  type=reset value="Borrar"> </center>
+</p>
+</form>
+</body>
+</html>
